@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="app.js"></script>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Schülerliste</h1>
+        <p> Hier finden Sie eine Liste von Schülern mit den dazugehörigen Telefonnummern und Elterndaten.</p>
+        <br />
+        <table style="width: 100%;">
+            <thead>
+                <tr>
+                    <th>Nutzerdaten kopieren</th>
+                    <th>Schülername</th>
+                    <th colspan="2">Telefon Nummern</th>
+                    <th>Name eines Elternteils</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="0">
+                    <td><img id="clipboard" src="copy.png" height=32 width=32 onclick="copy(0)"/></td>
+                    <td>Johannes Dietze</td>
+                    <td>+43 660 1396985</td>
+                    <td>+43 660 1307389</td>
+                    <td>Alexander Dietze</td>
+                </tr>
+                <tr id="1">
+                  <td><img id="clipboard" src="copy.png" height=32 width=32 onclick="copy(1)"/></td>
+                    <td>Max Mustermann</td>
+                    <td>+43 660 1112223</td>
+                    <td>+43 660 1412223</td>
+                    <td>Markus Mustermann</td>
+                </tr>
+                <tr id="2">
+                  <td><img id="clipboard" src="copy.png" height=32 width=32 onclick="copy(2)"/></td>
+                    <td>Karl Mustermann</td>
+                    <td>+43 660 1116223</td>
+                    <td>+43 660 1418223</td>
+                    <td>Markus Mustermann</td>
+                </tr>
+                <tr id="3">
+                  <td><img id="clipboard" src="copy.png" height=32 width=32 onclick="copy(3)"/></td>
+                    <td>Matthias Mustermann</td>
+                    <td>+43 660 1212223</td>
+                    <td>+43 660 1412923</td>
+                    <td>Markus Mustermann</td>
+                </tr>
+                <tr id="4">
+                  <td><img id="clipboard" src="copy.png" height=32 width=32 onclick="copy(4)"/></td>
+                    <td>Marlene Mustermann</td>
+                    <td>+43 660 1112203</td>
+                    <td>+43 660 1462223</td>
+                    <td>Markus Mustermann</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
